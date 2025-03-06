@@ -14,4 +14,4 @@ jobs:
           curl -X POST https://api.github.com/repos/PedrooMachado23/inpe_scholarship/dispatches \
           -H 'Accept: application/vnd.github.everest-preview+json' \
           -u ${{ secrets.PING_TOKEN }} \
-          --data '{"event_type": "ping", "client_payload": {"repository": "'"${{ github.repository }}"'", "smd_name": "data-plotter"}}'
+          --data '{"event_type": "ping", "client_payload": {"repository": "'"${{ github.repository }}"'", "smd_name": "data_plotter"}}'
