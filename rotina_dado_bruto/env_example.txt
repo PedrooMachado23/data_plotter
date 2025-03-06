@@ -1,0 +1,3 @@
+SSH_USER = your_user
+SSH_PASSWD = your_passwd
+SSH_IP = your_ip
