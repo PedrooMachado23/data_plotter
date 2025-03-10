@@ -23,6 +23,6 @@ jobs:
           -u ${{ secrets.PING_TOKEN }} \
           --data '{"event_type": "ping", "client_payload": {
             "repository": "'"${{ github.repository }}"'",
-            "smd_name": "field-research-data-treatment",
+            "smd_name": "data_plotter",
             "user_name": "'"${{ github.actor }}"'",
             "user_email": "'"${{ env.user_email }}"'"}}'
